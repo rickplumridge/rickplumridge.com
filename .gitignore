@@ -11,5 +11,9 @@ Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
+
+# Ignore Commerce Solution
+./shop/
+
 # Automaticly added to end of file by tools
 
