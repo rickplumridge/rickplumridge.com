@@ -11,9 +11,9 @@
  <entry>
   <id>urn:iweb:C0361017-A11D-4C20-A302-DEB476D7AD79</id>
   <title>Home</title>
-  <title xmlns="urn:iweb:">Home</title>
+  <title xmlns="urn:iweb:">Rick Plumridge</title>
   <in-navbar xmlns="urn:iweb:">C0361017-A11D-4C20-A302-DEB476D7AD79</in-navbar>
-  <link rel="alternate" href="Home.html"/>
+  <link rel="alternate" href="index.html"/>
   <updated>2014-10-29T11:50:18.001+11:00</updated>
   <content>Home</content>
  </entry>
@@ -22,7 +22,7 @@
   <title>Music</title>
   <title xmlns="urn:iweb:">Music</title>
   <in-navbar xmlns="urn:iweb:">830BA774-C11C-42CE-A81F-5001CB37BAF0</in-navbar>
-  <link rel="alternate" href="Music.html"/>
+  <link rel="alternate" href="music.html"/>
   <updated>2014-10-29T11:50:18.002+11:00</updated>
   <content>Music</content>
  </entry>
@@ -31,7 +31,7 @@
   <title>Gallery</title>
   <title xmlns="urn:iweb:">Gallery</title>
   <in-navbar xmlns="urn:iweb:">12664095-245F-4CD9-8776-02F8ACDD9CC1</in-navbar>
-  <link rel="alternate" href="Gallery.html"/>
+  <link rel="alternate" href="gallery.html"/>
   <updated>2014-10-29T11:50:18.003+11:00</updated>
   <content>Gallery</content>
  </entry>
@@ -40,7 +40,7 @@
   <title>Canyons</title>
   <title xmlns="urn:iweb:">Canyons</title>
   <in-navbar xmlns="urn:iweb:">B5615045-B63B-4792-8F37-8CC04E7F63DA</in-navbar>
-  <link rel="alternate" href="Canyons.html"/>
+  <link rel="alternate" href="canyons.html"/>
   <updated>2014-10-29T11:50:18.004+11:00</updated>
   <content>Canyons</content>
  </entry>
@@ -49,7 +49,7 @@
   <title>Deserts</title>
   <title xmlns="urn:iweb:">Deserts</title>
   <in-navbar xmlns="urn:iweb:">224BF997-BFD7-4713-B03D-F7793400505D</in-navbar>
-  <link rel="alternate" href="Deserts.html"/>
+  <link rel="alternate" href="deserts.html"/>
   <updated>2014-10-29T11:50:18.005+11:00</updated>
   <content>Deserts</content>
  </entry>
@@ -58,7 +58,7 @@
   <title>Forest</title>
   <title xmlns="urn:iweb:">Forest</title>
   <in-navbar xmlns="urn:iweb:">B3F3E314-A68B-40DF-885F-C72158A08E35</in-navbar>
-  <link rel="alternate" href="Forest.html"/>
+  <link rel="alternate" href="forest.html"/>
   <updated>2014-10-29T11:50:18.006+11:00</updated>
   <content>Forest</content>
  </entry>
@@ -67,7 +67,7 @@
   <title>Mountains</title>
   <title xmlns="urn:iweb:">Mountains</title>
   <in-navbar xmlns="urn:iweb:">B8E81105-41D0-441B-BE18-56DFAC256FDA</in-navbar>
-  <link rel="alternate" href="Mountains.html"/>
+  <link rel="alternate" href="mountains.html"/>
   <updated>2014-10-29T11:50:18.007+11:00</updated>
   <content>Mountains</content>
  </entry>
@@ -76,7 +76,7 @@
   <title>Ocean-Beach</title>
   <title xmlns="urn:iweb:">Ocean-Beach</title>
   <in-navbar xmlns="urn:iweb:">69A5FDB1-2320-4873-BE79-FE4AF144FF66</in-navbar>
-  <link rel="alternate" href="Ocean-Beach.html"/>
+  <link rel="alternate" href="ocean-beach.html"/>
   <updated>2014-10-29T11:50:18.008+11:00</updated>
   <content>Ocean-Beach</content>
  </entry>
@@ -85,7 +85,7 @@
   <title>Rivers</title>
   <title xmlns="urn:iweb:">Rivers</title>
   <in-navbar xmlns="urn:iweb:">309681DE-F40C-4FA8-951F-9154A992C4E0</in-navbar>
-  <link rel="alternate" href="Rivers.html"/>
+  <link rel="alternate" href="rivers.html"/>
   <updated>2014-10-29T11:50:18.009+11:00</updated>
   <content>Rivers</content>
  </entry>
@@ -94,7 +94,7 @@
   <title>Tropical</title>
   <title xmlns="urn:iweb:">Tropical</title>
   <in-navbar xmlns="urn:iweb:">242AFD10-5AD8-4CD5-812C-53992FE018E6</in-navbar>
-  <link rel="alternate" href="Tropical.html"/>
+  <link rel="alternate" href="tropical.html"/>
   <updated>2014-10-29T11:50:18.010+11:00</updated>
   <content>Tropical</content>
  </entry>
@@ -103,7 +103,7 @@
   <title>Waterfalls</title>
   <title xmlns="urn:iweb:">Waterfalls</title>
   <in-navbar xmlns="urn:iweb:">C14BCB08-6854-49F4-BE45-81EF28D64E85</in-navbar>
-  <link rel="alternate" href="Waterfalls.html"/>
+  <link rel="alternate" href="waterfalls.html"/>
   <updated>2014-10-29T11:50:18.011+11:00</updated>
   <content>Waterfalls</content>
  </entry>
@@ -112,7 +112,7 @@
   <title>Abstract</title>
   <title xmlns="urn:iweb:">Abstract</title>
   <in-navbar xmlns="urn:iweb:">813F3319-AF57-4CB2-8060-F5846D70D361</in-navbar>
-  <link rel="alternate" href="Abstract.html"/>
+  <link rel="alternate" href="abstract.html"/>
   <updated>2014-10-29T11:50:18.012+11:00</updated>
   <content>Abstract</content>
  </entry>
@@ -121,7 +121,7 @@
   <title>Exhibition</title>
   <title xmlns="urn:iweb:">Exhibition</title>
   <in-navbar xmlns="urn:iweb:">AF6D07BE-31AF-4A8F-8AA5-ADF964484DAD</in-navbar>
-  <link rel="alternate" href="Exhibition.html"/>
+  <link rel="alternate" href="exhibition.html"/>
   <updated>2014-10-29T11:50:18.013+11:00</updated>
   <content>Exhibition</content>
  </entry>
@@ -130,7 +130,7 @@
   <title>In the Home</title>
   <title xmlns="urn:iweb:">In the Home</title>
   <in-navbar xmlns="urn:iweb:">DCE5C482-668C-495C-ACEB-2C0C3A977765</in-navbar>
-  <link rel="alternate" href="In_the_Home.html"/>
+  <link rel="alternate" href="in-the-home.html"/>
   <updated>2014-10-29T11:50:18.014+11:00</updated>
   <content>In the Home</content>
  </entry>
@@ -139,16 +139,16 @@
   <title>Shop</title>
   <title xmlns="urn:iweb:">Shop</title>
   <in-navbar xmlns="urn:iweb:">4B33CB80-237A-42C5-81E5-A6987E79FE7D</in-navbar>
-  <link rel="alternate" href="Shop.html"/>
+  <link rel="alternate" href="shop/"/>
   <updated>2014-10-29T11:50:18.015+11:00</updated>
   <content>Shop</content>
  </entry>
  <entry>
   <id>urn:iweb:E23081B8-6352-440E-A314-0555CBF30FAE</id>
   <title>Bio</title>
-  <title xmlns="urn:iweb:">Bio</title>
+  <title xmlns="urn:iweb:">Biography</title>
   <in-navbar xmlns="urn:iweb:">E23081B8-6352-440E-A314-0555CBF30FAE</in-navbar>
-  <link rel="alternate" href="Bio.html"/>
+  <link rel="alternate" href="biography.html"/>
   <updated>2014-10-29T11:50:18.016+11:00</updated>
   <content>Bio</content>
  </entry>
@@ -157,7 +157,7 @@
   <title>Contact</title>
   <title xmlns="urn:iweb:">Contact</title>
   <in-navbar xmlns="urn:iweb:">DDFDC403-5DB4-4356-899C-DB7884DE1C4D</in-navbar>
-  <link rel="alternate" href="Contact.html"/>
+  <link rel="alternate" href="contact.html"/>
   <updated>2014-10-29T11:50:18.017+11:00</updated>
   <content>Contact</content>
  </entry>
