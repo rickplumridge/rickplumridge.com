@@ -1,0 +1,64 @@
+
+## We dont use multiviews
+Options -MultiViews
+
+<IfModule mod_ssl.c>
+
+    ## make HTTPS env vars available for CGI mode
+    SSLOptions StdEnvVars
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+    ## enable rewrites
+    Options +FollowSymLinks
+    RewriteEngine on
+    
+    ## TRACE and TRACK HTTP methods disabled to prevent XSS attacks
+    RewriteCond %{REQUEST_METHOD} ^TRAC[EK]
+    RewriteRule .* - [L,R=405]
+    
+    ## stop image leachers and direct linkers from using our bandwidth
+    RewriteCond %{HTTP_REFERER} !^$
+    RewriteCond %{HTTP_REFERER} !^http://rickplumridge.com/.*$      [NC]
+    RewriteCond %{HTTP_REFERER} !^http://rickplumridge.com$      [NC]
+    RewriteCond %{HTTP_REFERER} !^http://www.rickplumridge.com/.*$      [NC]
+    RewriteCond %{HTTP_REFERER} !^http://www.rickplumridge.com$      [NC]
+    RewriteCond %{HTTP_REFERER} !^https://rickplumridge.com/.*$      [NC]
+    RewriteCond %{HTTP_REFERER} !^https://rickplumridge.com$      [NC]
+    RewriteCond %{HTTP_REFERER} !^https://www.rickplumridge.com/.*$      [NC]
+    RewriteCond %{HTTP_REFERER} !^https://www.rickplumridge.com$      [NC]
+    RewriteRule .*\.(jpg|jpeg|gif|png|bmp|mp3|m4a|mov)$ - [F,NC]
+
+</IfModule>
+
+## Prevent character encoding issues from server overrides
+AddDefaultCharset Off
+
+<IfModule mod_expires.c>
+
+    # Enable expirations
+    ExpiresActive On 
+
+    ## Add default Expires header
+    ## http://developer.yahoo.com/performance/rules.html#expires
+    ExpiresDefault "access plus 14 days"
+    
+    # My favicon
+    ExpiresByType image/x-icon "access plus 1 year”
+
+</IfModule>
+
+## By default allow all access
+Order allow,deny
+Allow from all
+
+## Deny access to README.md
+<Files README.md>
+    order allow,deny
+    deny from all
+</Files>
+
+## http://developer.yahoo.com/performance/rules.html#etags
+FileETag none
