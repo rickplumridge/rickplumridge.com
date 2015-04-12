@@ -1,6 +1,6 @@
 .paragraph_style {
     color: rgb(255, 255, 255);
-    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
     font-size: 22px;
     font-stretch: normal;
     font-style: normal;
@@ -51,9 +51,9 @@
     text-transform: none;
 }
 .Body {
-    color: rgb(88, 77, 77);
-    font-family: 'ArialMT', 'Arial', sans-serif;
-    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
+    font-size: 16px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
